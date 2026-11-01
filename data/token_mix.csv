@@ -1,0 +1,8 @@
+token_category,pct_of_all_tokens,est_cost_pct
+input,0.0025,0.034
+w5m,0.0000,
+w1h,2.3141,
+write_unlabeled,0.0076,
+read,97.1052,39.190
+output,0.5705,23.258
+write_all,2.3218,37.518

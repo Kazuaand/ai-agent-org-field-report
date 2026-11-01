@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this report or its data, please cite it as below."
+title: "Field report: running a one-person AI agent organization — prompt-cache cost after idle gaps, delegation volume, and a pre-publication gate"
+authors:
+  - name: Kazuaand
+version: 1.0.0
+date-released: 2026-11-01
+license: CC-BY-4.0
+repository-code: "https://github.com/Kazuaand/ai-agent-org-field-report"
+keywords:
+  - AI agents
+  - multi-agent systems
+  - prompt caching
+  - LLM cost
+  - secret detection
+  - PII detection
+  - field report
+preferred-citation:
+  type: report
+  title: "Field report: running a one-person AI agent organization — prompt-cache cost after idle gaps, delegation volume, and a pre-publication gate"
+  authors:
+    - name: Kazuaand
+  year: 2026
+  month: 11
+  version: 1.0.0
+  url: "https://github.com/Kazuaand/ai-agent-org-field-report"

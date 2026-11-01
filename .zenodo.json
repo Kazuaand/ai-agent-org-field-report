@@ -1,0 +1,36 @@
+{
+  "title": "Field report: running a one-person AI agent organization — prompt-cache cost after idle gaps, delegation volume, and a pre-publication gate",
+  "description": "<p>Aggregate measurements from one operator running day-to-day work through an organization of AI coding agents (a lead session per task that delegates to subagents and checks their results), October 2026, recounted from raw session logs and tool output.</p><ul><li>Cache rewrite after idle gaps: requests arriving after the prompt cache expired wrote a median of 55,961 cache tokens versus 1,268 while warm; such cold requests were 0.5% of main-session requests but 12.1% of main-session cache-write tokens (85,072 requests, 1,402 sessions).</li><li>Token and estimated standard-rate cost composition: subagents made 71% of 296,381 requests and about 59% of the estimated cost; cache writes, cache reads and output each carried a large share of the estimate.</li><li>Pre-publication gate: on 22 synthetic secret and personal-data samples, gitleaks, TruffleHog and Presidio run alone reported 9, 6 and 6, and 7 samples were reported by none; a four-stage gate with two independent LLM judges failed 4 of 7 release runs, 3 of them by failing closed on judge process errors.</li></ul><p>Includes the report in English and Japanese, aggregated CSV data (no per-session or identifying rows), SVG figures and the scripts that regenerate them. Costs are estimates at standard list prices, reported as shares; no billing data is used.</p>",
+  "creators": [
+    {
+      "name": "Kazuaand"
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "report",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "AI agents",
+    "multi-agent systems",
+    "prompt caching",
+    "LLM cost",
+    "delegation",
+    "secret detection",
+    "PII detection",
+    "pre-publication review",
+    "field report"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Kazuaand/publish-gate",
+      "relation": "references"
+    },
+    {
+      "identifier": "https://github.com/Kazuaand/graph-compound-engineering",
+      "relation": "references"
+    }
+  ]
+}

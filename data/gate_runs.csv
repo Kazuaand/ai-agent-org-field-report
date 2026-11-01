@@ -1,0 +1,8 @@
+repository,run,result,stage1_findings,stage2_findings,stage3_result,judge_1,judge_2,review_items_for_judges,fail_causes
+awesome-ai-solopreneur,1,PASS,0,0,PASS,PASS,PASS,92,
+graph-compound-engineering,1,FAIL,0,0,FAIL,PASS,FAIL,582,judge flagged an identity statement x4
+graph-compound-engineering,2,PASS,0,0,PASS,PASS,PASS,582,
+publish-gate,1,FAIL,1,1,FAIL,FAIL,PASS,154,judge process error (fail-closed) x1; stage 1 PII recognizer x1; stage 2 denylist x1; tree changed during the run x1
+publish-gate,2,FAIL,0,0,FAIL,FAIL,PASS,165,judge process error (fail-closed) x1; tree changed during the run x1
+publish-gate,3,FAIL,0,0,FAIL,FAIL,PASS,165,judge process error (fail-closed) x1
+publish-gate,4,PASS,0,0,PASS,PASS,PASS,165,

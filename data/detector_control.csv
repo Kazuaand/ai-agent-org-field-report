@@ -1,0 +1,23 @@
+sample,form_group,gitleaks,trufflehog,presidio,publish_gate_stages_1_2
+openai-project-key,key shape,1,1,0,1
+anthropic-key,key shape,1,1,0,1
+github-fine-grained-pat,key shape,1,1,0,1
+github-classic-pat,key shape,1,1,0,1
+telegram-bot-token,key shape,0,0,1,1
+bearer-header,key shape,0,0,0,1
+url-userinfo,key shape,0,1,0,1
+bcrypt-hash,key shape,0,0,0,1
+aws-access-key-id,key shape,1,0,0,1
+basic-auth-header,key shape,0,0,0,1
+private-key-block,key shape,1,0,0,1
+slack-bot-token,key shape,1,1,1,1
+generic-sk-key,key shape,1,0,0,1
+prose-label-value,credential in prose,0,0,0,review
+html-label-value,credential in prose,0,0,0,1
+capability-url,credential in prose,1,0,0,1
+email-address,personal data,0,0,1,1
+phone-number,personal data,0,0,1,1
+private-ipv4,personal data,0,0,1,1
+person-name-en,personal data,0,0,1,review
+person-name-ja,personal data,0,0,0,1
+address-ja,personal data,0,0,0,1

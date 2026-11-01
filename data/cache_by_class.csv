@@ -1,0 +1,4 @@
+group,n_requests,write_median,write_p90,write_share_pct,read_median,read_p90,read_share_pct,hit_ratio_median
+session_start,1402,48850,62963,23.077,23061,28134,0.154,0.3273
+warm,83236,1268,5115,64.773,199640,397628,99.632,0.9938
+cold,434,55961,257362,12.150,33126,234595,0.214,0.3706

@@ -1,0 +1,7 @@
+metric,value
+window_start_utc,2026-10-01
+window_end_utc_exclusive,2026-11-01
+main_files,1402
+main_requests,85072
+subagent_files,6089
+subagent_requests,211309
